@@ -1,3 +1,3 @@
 # GAGNet-KD
 ## Training results
-The train weights on Potsdam dataset and Vaihingen dataset are provided at https://pan.baidu.com/s/1jq9GPMUGIKSrfbTIW9fBZQ (Baidu Driver: y7pv)
+The train weights and experimental results on Potsdam dataset and Vaihingen dataset are provided at https://pan.baidu.com/s/1Bb9LSQFUI6XTy0JLzL3b1g (Baidu Driver: f4ix)
