@@ -3,7 +3,7 @@ import torch.nn as nn
 import math
 from torch.nn import Parameter
 from GAGNet-KD.mobilenetv2 import mobilenet_v2
-from GAGNet-KD.GCN_11_4 import EAGCN
+from GAGNet-KD.AGD import EAGCN
 import torch.nn.functional as F
 
 
