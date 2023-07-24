@@ -333,9 +333,9 @@ class FFNet(nn.Module):
         # print('G:', G.shape)  # [2, 64, 32, 32]
 
         d1 = self.decoder_w1(w1, w2, w3, w4, G)
-        d2 = self.decoder_w2(w1, w2, w3, w4, d1, G)
-        d3 = self.decoder_w3(w1, w2, w3, w4, d1, d2, G)
-        d4 = self.decoder_w4(w1, w2, w3, w4, d1, d2, d3, G)
+        d2 = self.decoder_w2(w2, w1, w3, w4, d1, G)
+        d3 = self.decoder_w3(w3, w1, w3, w4, d1, d2, G)
+        d4 = self.decoder_w4(w4, w1, w2, w3, d1, d2, d3, G)
         # print('d1:', d1.shape)  # [2, 64, 32, 32]
         # print('d2:', d2.shape)  # [2, 64, 32, 32]
         # print('d3:', d3.shape)  # [2, 64, 32, 32]
